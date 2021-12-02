@@ -15,9 +15,9 @@
   // Functions
   //
   
-  if (currentPage != "/") {
-    window.location.pathname = "/";
-  }
+  // if (currentPage != "/") {
+  //   window.location.pathname = "/";
+  // }
 
   //
   // Events
