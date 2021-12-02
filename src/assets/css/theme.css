@@ -12277,4 +12277,6 @@ body.compensate-for-scrollbar {
   #brand-logo-text {
     display: inline; }
   #brand-logo-image {
-    display: none; } }
+    display: none; }
+  #iframe-video {
+    width: 300px; } }
