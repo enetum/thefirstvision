@@ -1359,16 +1359,10 @@ pre {
     border-color: #a7b9f6;
     outline: 0;
     box-shadow: none, none; }
-  .form-control::-webkit-input-placeholder {
-    color: #869AB8;
-    opacity: 1; }
   .form-control::-moz-placeholder {
     color: #869AB8;
     opacity: 1; }
   .form-control:-ms-input-placeholder {
-    color: #869AB8;
-    opacity: 1; }
-  .form-control::-ms-input-placeholder {
     color: #869AB8;
     opacity: 1; }
   .form-control::placeholder {
@@ -10422,16 +10416,10 @@ a.card-meta {
   padding-left: 0;
   padding-right: 0; }
 
-.form-label-group > .form-control::-webkit-input-placeholder {
-  color: transparent; }
-
 .form-label-group > .form-control::-moz-placeholder {
   color: transparent; }
 
 .form-label-group > .form-control:-ms-input-placeholder {
-  color: transparent; }
-
-.form-label-group > .form-control::-ms-input-placeholder {
   color: transparent; }
 
 .form-label-group > .form-control::placeholder {
@@ -10449,13 +10437,9 @@ a.card-meta {
 @supports (-ms-ime-align: auto) {
   .form-label-group > label {
     display: none; }
-  .form-label-group .form-control::-webkit-input-placeholder {
-    color: #869AB8; }
   .form-label-group .form-control::-moz-placeholder {
     color: #869AB8; }
   .form-label-group .form-control:-ms-input-placeholder {
-    color: #869AB8; }
-  .form-label-group .form-control::-ms-input-placeholder {
     color: #869AB8; }
   .form-label-group .form-control::placeholder {
     color: #869AB8; } }
@@ -10463,13 +10447,9 @@ a.card-meta {
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .form-label-group > label {
     display: none; }
-  .form-label-group .form-control::-webkit-input-placeholder {
-    color: #869AB8; }
   .form-label-group .form-control::-moz-placeholder {
     color: #869AB8; }
   .form-label-group .form-control:-ms-input-placeholder {
-    color: #869AB8; }
-  .form-label-group .form-control::-ms-input-placeholder {
     color: #869AB8; }
   .form-label-group .form-control::placeholder {
     color: #869AB8; } }
@@ -10541,8 +10521,7 @@ a.card-meta {
   width: auto; }
 
 .navbar-dark .navbar-brand {
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1); }
+  filter: brightness(0) invert(1); }
 
 @media (max-width: 991.98px) {
   .navbar-btn {
@@ -12004,8 +11983,7 @@ body.compensate-for-scrollbar {
       font-size: 1.125rem; } }
 
 .bg-dark .footer-brand {
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1); }
+  filter: brightness(0) invert(1); }
 
 .flickity-button {
   display: flex;
