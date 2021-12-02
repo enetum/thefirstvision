@@ -2,3 +2,33 @@
 // user.scss
 // Use this to write your custom SCSS
 //
+
+.navbar-brand-img {
+  max-height: 6rem;
+  width: auto;
+}
+
+#brand-logo-text {
+  display: none;
+}
+
+.flickity-button {
+  color: #42BA96!important;
+}
+
+@media (max-width: 991.98px) {
+
+  .navbar-brand-img {
+    max-height: 2.4rem;
+    width: auto;
+  }
+
+  #brand-logo-text {
+    display: inline;
+  }
+
+  #brand-logo-image {
+    display: none;
+  }
+
+}
